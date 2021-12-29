@@ -22,11 +22,14 @@
 
 #As a developer, I want the Customer class’s initializer to take in the initial value for the customer’s name via a parameter.
 
-#As a developer, I want the Customer class to have a method to add a new product to the customer’s shopping cart (within this method you will call the shopping cart’s add product method)
+#As a developer, I want the Customer class to have a method to add a new product to the customer’s shopping cart 
+# (within this method you will call the shopping cart’s add product method)
 
-#As a developer, I want the Customer class to have a method to view all products in the customer’s shopping cart. (Loop over the shopping cart’s products list and print each product to the terminal)
+#As a developer, I want the Customer class to have a method to view all products in the customer’s shopping cart. 
+# (Loop over the shopping cart’s products list and print each product to the terminal)
 
-#As a developer, I want to import the Customer and Product classes into main.py so I can instantiate a customer object as well as three Product objects and interact with the object’s methods:
+#As a developer, I want to import the Customer and Product classes into main.py so I can instantiate a customer object as well as 
+# three Product objects and interact with the object’s methods:
 
 #1. Print the customer’s name to the terminal
 
