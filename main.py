@@ -16,7 +16,9 @@
 
 #As a developer, I want the ShoppingCart class to have a method to empty all products from the shopping cart.
 
-#As a developer, I want the Customer class to have class instance variables to keep track of the Customer’s name and shopping cart object. (Set the shopping cart instance variable equal to a new ShoppingCart object in the initializer HINT: You will have to import the ShoppingCart class into the customer.py file)
+#As a developer, I want the Customer class to have class instance variables to keep track of the Customer’s name and shopping cart object. 
+# (Set the shopping cart instance variable equal to a new ShoppingCart object in the initializer 
+# HINT: You will have to import the ShoppingCart class into the customer.py file)
 
 #As a developer, I want the Customer class’s initializer to take in the initial value for the customer’s name via a parameter.
 
