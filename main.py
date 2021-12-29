@@ -50,3 +50,26 @@
 #shopping_cart.py
 
 #Product.py
+
+from customer import Customer
+from product import Product
+
+customer_one = Customer("Johnny")
+print(customer_one.name)
+
+item_one = Product("Orange juice", 3.95, "Juice")
+customer_one.add_to_customers_cart(item_one)
+
+item_two = Product("Wonder bread", 4.99, "Bread")
+customer_one.add_to_customers_cart(item_two)
+
+item_three = Product("Sliced turkey", 7.05, "Deli meat")
+customer_one.add_to_customers_cart(item_three)
+
+customer_one.review_cart()
+
+total_price = customer_one.customers_cart.calculate_total_price() 
+print(f"Total price of items in cart: ${total_price} ")
+
+customer_one.customers_cart.empty_cart()
+print(customer_one.customers_cart.products)
